@@ -19,7 +19,7 @@ Material:
   m_InvalidKeywords:
   - GEOM_TYPE_LEAF
   - _METALLICGLOSSMAP
-  m_LightmapFlags: 1
+  m_LightmapFlags: 2
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 1
   m_CustomRenderQueue: 2450
@@ -35,7 +35,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _BumpMap:
-        m_Texture: {fileID: 2800000, guid: aa2a537dc490c6b4880f41ceabf292ab, type: 3}
+        m_Texture: {fileID: 2800000, guid: 7d2678d5838143146b9806a9beddbcea, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Control:
@@ -59,7 +59,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _EmissionMap:
-        m_Texture: {fileID: 0}
+        m_Texture: {fileID: 2800000, guid: 7bfddfbf52b3890429630afbf404fb0e, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _GlossMap:
@@ -71,7 +71,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MetallicGlossMap:
-        m_Texture: {fileID: 2800000, guid: edc69b0941799304d8f1a04ecdceb1de, type: 3}
+        m_Texture: {fileID: 2800000, guid: dc3f6da31a4e9bd46870d3abb5db6b15, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Normal0:
@@ -172,7 +172,7 @@ Material:
     - _QueueOffset: 0
     - _ReceiveShadows: 1
     - _Shininess: 0.1
-    - _Smoothness: 1
+    - _Smoothness: 0.21
     - _SmoothnessInAlbedo: 0
     - _SmoothnessTextureChannel: 0
     - _SpecularHighlights: 1
@@ -188,7 +188,7 @@ Material:
     - _BaseColor: {r: 0.875, g: 0.8723377, b: 0.7784926, a: 1}
     - _Color: {r: 0.875, g: 0.8723377, b: 0.7784926, a: 1}
     - _EmisColor: {r: 0.52205884, g: 0.52205884, b: 0.52205884, a: 1}
-    - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
+    - _EmissionColor: {r: 0.5882353, g: 0.5882353, b: 0.5882353, a: 1}
     - _EmissionColorUI: {r: 1, g: 1, b: 1, a: 1}
     - _HueVariation: {r: 1, g: 0.5, b: 0, a: 0.1}
     - _MetaAlbedoAdd: {r: 0, g: 0, b: 0, a: 0}
